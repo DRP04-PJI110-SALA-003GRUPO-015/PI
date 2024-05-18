@@ -17,16 +17,22 @@
 	</head>
 
 	<body>
-		<header>
-			<h1>SUPER TROCA DE ÓLEO</h1>
-			<h2>Veiculos</h2>	
-			<nav>
-				<a href="menu_principal.php"> Retorna 'Menu principal'</a>
-				<a href="inclusao_veiculos.php"> Inclusão</a>
-				<a href="manutencao_veiculos.php"> Manutenção</a>			
-			</nav>
-		</header>
+		<div class="container mt-4">
+			<header class="mb-4 text-center">
+				<h1>SUPER TROCA DE ÓLEO</h1>
+				<h2>Veiculos</h2>	
+				<nav class="nav justify-content-center">
+					<a class="nav-link" href="menu_principal.php"> Retorna 'Menu principal'</a>
+					<a class="nav-link" href="inclusao_veiculos.php"> Inclusão</a>
+					<a class="nav-link" href="manutencao_veiculos.php"> Manutenção</a>			
+				</nav>
+			</header>
+		</div>
 				
+		<!-- BOOTSTRAP JS, POPPER.JS, AND JQUERY -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXlO0bTQp+9eLQELHj6V3LBjYd2ZzldC1vM3Q1/cQ3zof2K2f+V4Hj4Kq4EX" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha384-w1Qj7qf/5bNerAU8+K6d4E4oV2PLWlrW1AVpaOBlBDddWhYUGQ35aeawFslKwPp0" crossorigin="anonymous"></script>
 	</body>
 
 

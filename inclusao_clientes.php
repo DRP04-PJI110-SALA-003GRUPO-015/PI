@@ -60,9 +60,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container mt-4">
         <header class="mb-4 text-center">
             <h1>PI1 - SUPER TROCA DE ÓLEO</h1>
-            <h2>Manutenção de Usuários - Inclusão</h2>
+            <h2>Manutenção de Clientes - Inclusão</h2>
             <nav class="nav justify-content-center">
-                <a class="nav-link" href="menu_clientes.php">Retorna 'Menu Usuários'</a>
+                <a class="nav-link" href="menu_clientes.php">Retorna 'Menu Clientes'</a>
             </nav>
         </header>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
