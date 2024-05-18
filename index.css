@@ -1,0 +1,88 @@
+/* style.css */
+body {
+    font-family:  Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #274e77;
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f5f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza os elementos horizontalmente */
+    border-radius: 5%;
+}
+
+.login-container h2 i {
+    font-size: 80px; /* Tamanho do ícone */
+    color: #274e77; /* Cor do ícone */
+}
+
+.custom-color {
+    background-color: #274e77;
+    border-color: #274e77;
+}
+
+.custom-color:hover {
+    background-color: #1a3550;
+    border-color: #1a3550;
+}
+
+
+
+
+h2 {
+    margin-top: 0; /* Remove a margem superior do título */
+}
+
+form {
+    margin-top: 20px;
+}
+
+.input-container {
+    position: relative;
+    display: flex; /* Usar flexbox para alinhar os ícones verticalmente */
+    align-items: center; /* Alinhar os ícones verticalmente */
+}
+
+.input-container i {
+    margin-right: 10px; /* Espaçamento entre o ícone e o campo de entrada */
+    color: #ccc;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%; /* Os campos e o botão ocupam toda a largura do contêiner */
+    padding: 8px; /* Espaçamento interno dos campos e do botão */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Garante que a largura inclua padding e borda */
+}
+
+button {
+    background-color: #274e77;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center; /* Centraliza o texto de erro */
+}
+

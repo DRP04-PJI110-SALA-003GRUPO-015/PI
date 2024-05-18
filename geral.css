@@ -1,0 +1,152 @@
+header{
+  background-color: #274e77;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+nav {
+    color: #fff;
+    background-color: #666;
+    padding: 10px;
+    text-align: left;
+}
+
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* box para inclusão de registros */
+.usuario-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #f1f5f7;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centraliza os elementos horizontalmente */
+  border-radius: 5%;
+}
+
+.usuario-container h2 i {
+  font-size: 80px; /* Tamanho do ícone */
+  color: #274e77; /* Cor do ícone */
+}
+
+
+
+
+
+
+
+/*
+section{
+    padding: 20px;
+}
+
+footer{
+    background-color: #274e77;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#usuario-table {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+#usuario-table thead {
+    color: #FFF;
+    background-color: #007BFF;
+}
+
+.col-id {
+    font-weight: bold;
+  }
+  
+  .actions {
+    text-align: center;
+    width: 150px;
+  }
+  
+  .actions i {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  .check-icon {
+    color: #1E7E34;
+  }
+  
+  .edit-icon {
+    color: #007BFF;
+  }
+  
+  .delete-form {
+    display: inline-block;
+  }
+  
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .delete-icon {
+    color: #BD2130;
+  }
+
+  #main-title {
+    text-align: center;
+    margin: 15px 0 30px;
+  }
+  
+  #view-usuario-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  #usuario-table {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #usuario-table thead {
+    color: #FFF;
+    background-color: #007BFF;
+  }
+*/
+
+/* Estilo para centralizar a tabela */
+.center-table {
+  margin: 0 auto;
+  width: 100%;
+  overflow-y: auto; /* Adiciona barra de rolagem vertical se necessário */
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
