@@ -24,7 +24,7 @@
             <nav class="nav justify-content-center">
                 <a class="nav-link" href="menu_principal.php">Retorna 'Menu principal'</a>
                 <a class="nav-link" href="inclusao_clientes.php">Inclusão</a>
-                <a class="nav-link" href="manutencao_clientes.php">Manutenção</a>
+                <a class="nav-link" href="manutencao_clientes.php">Atualização</a>
             </nav>
         </header>
     </div>

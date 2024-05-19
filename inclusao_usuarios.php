@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container mt-4">
         <header class="mb-4">
             <h1>PI1 - SUPER TROCA DE ÓLEO</h1>
-            <h2>Manutenção de Usuários - Inclusão</h2>
+            <h2>Atualização de Usuários - Inclusão</h2>
             <nav>
                 <a href="menu_usuarios.php"> Retorna 'Menu de Usuários'</a>
             </nav>
